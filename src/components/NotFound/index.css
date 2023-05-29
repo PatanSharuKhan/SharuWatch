@@ -1,0 +1,15 @@
+.display-column-center-center {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.not-found-image {
+  min-width: 250px;
+  width: 100%;
+  max-width: 400px;
+}
+.bg-black {
+  background-color: #0f0f0f;
+}

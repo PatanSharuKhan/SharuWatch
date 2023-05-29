@@ -1,0 +1,74 @@
+.text-light {
+  color: white;
+}
+.text-dark {
+  color: black;
+}
+.bg-light {
+  background-color: white;
+}
+.bg-dark {
+  background-color: #181818;
+}
+
+.navbar-container {
+  width: 100vw;
+  height: 10vh;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.website-logo {
+  width: 150px;
+  cursor: pointer;
+}
+.nav-links-container {
+  display: flex;
+  padding-left: 0px;
+  align-items: center;
+}
+.nav-links-container li {
+  list-style-type: none;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
+.mode-btn {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+}
+.moon-icon,
+.sun-icon {
+  font-size: 30px;
+}
+.avatar {
+  width: 30px;
+  cursor: pointer;
+}
+.light-logout,
+.dark-logout {
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px;
+  background-color: transparent;
+  color: rgb(65, 4, 145);
+  border: 1px solid rgb(65, 4, 145);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.dark-logout {
+  color: white;
+  border-color: white;
+}
+.popup-content {
+  width: 400px;
+  background-color: white;
+  padding: 20px;
+  margin: auto;
+  box-shadow: 0px 4px 16px 0px grey;
+}
+.popup-title {
+  font-size: 20px;
+}

@@ -1,0 +1,56 @@
+.left-nav-section {
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+.left-nav-section ul {
+  padding-left: 0px;
+}
+.left-nav-section ul li {
+  list-style-type: none;
+  padding-left: 20px;
+}
+.active {
+  background-color: aliceblue;
+}
+.nav-icons {
+  font-size: 20px;
+  margin-right: 5px;
+}
+.d-flex-btn {
+  height: 40px;
+  font-size: 18px;
+  display: flex;
+  background-color: transparent;
+  width: 100%;
+  padding: 5px;
+  border: 0px;
+  align-items: center;
+  cursor: pointer;
+}
+.icon-red {
+  color: red;
+}
+.icon-light {
+  color: white;
+}
+.icon-grey {
+  color: grey;
+}
+
+.active-dark {
+  background-color: rgb(87, 83, 83);
+}
+
+.active-light {
+  background-color: rgb(146, 204, 255);
+}
+a {
+  text-decoration: none;
+}
+.social-icons-container img {
+  width: 40px;
+  margin-right: 10px;
+}
